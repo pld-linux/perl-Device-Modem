@@ -8,13 +8,13 @@
 Summary:	Device::Modem - a Perl class to interface generic modems (AT-compliant)
 Summary(pl):	Device::Modem - perlowy interfejs do obs³ugi modemów szeregowych
 Name:		perl-Device-Modem
-Version:	1.39
+Version:	1.43
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6ceccc7ec37dcb91665f88446e05d445
+# Source0-md5:	6fd96d4036443f9fa9f7ee8ae9d31f9a
 BuildRequires:	perl-Device-SerialPort
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
