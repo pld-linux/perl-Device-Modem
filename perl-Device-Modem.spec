@@ -1,10 +1,10 @@
 #
 # Conditional build:
-%bcond_with     tests   # perform "make test" (uses serial port)
+%bcond_with	tests	# perform "make test" (uses serial port)
 #
-%include        /usr/lib/rpm/macros.perl
-%define pdir    Device
-%define pnam    Modem
+%include	/usr/lib/rpm/macros.perl
+%define		pdir	Device
+%define		pnam	Modem
 Summary:	Device::Modem - a Perl class to interface generic modems (AT-compliant)
 Summary(pl):	Device::Modem - perlowy interfejs do obs³ugi modemów szeregowych
 Name:		perl-Device-Modem
@@ -38,7 +38,7 @@ port szeregowy.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-        DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
