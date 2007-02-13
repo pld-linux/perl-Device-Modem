@@ -6,7 +6,7 @@
 %define		pdir	Device
 %define		pnam	Modem
 Summary:	Device::Modem - a Perl class to interface generic modems (AT-compliant)
-Summary(pl.UTF-8):   Device::Modem - perlowy interfejs do obsługi modemów szeregowych
+Summary(pl.UTF-8):	Device::Modem - perlowy interfejs do obsługi modemów szeregowych
 Name:		perl-Device-Modem
 Version:	1.43
 Release:	1
